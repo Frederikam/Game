@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\YoungWizardAdventure.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{8EEA1592-F4B9-47D1-B90B-0A9993C096A9}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\YoungWizardAdventure.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\YoungWizardAdventureEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{C05B29C4-6D53-4B0A-975F-0AC871A24534}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\YoungWizardAdventure">
+			<UniqueIdentifier>{0D0231B3-D9C1-4984-8A15-79ACC6B558AA}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\YoungWizardAdventure\AdventureStateBase.cpp">
+			<Filter>Source\YoungWizardAdventure</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\YoungWizardAdventure\AdventureStateBase.h">
+			<Filter>Source\YoungWizardAdventure</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\YoungWizardAdventure\YoungWizardAdventure.Build.cs">
+			<Filter>Source\YoungWizardAdventure</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\YoungWizardAdventure\YoungWizardAdventure.cpp">
+			<Filter>Source\YoungWizardAdventure</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\YoungWizardAdventure\YoungWizardAdventure.h">
+			<Filter>Source\YoungWizardAdventure</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
