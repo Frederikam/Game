@@ -3,10 +3,9 @@
 #include "Kismet/BlueprintFunctionLibrary.h"
 #include "MapLib.generated.h"
 #include "EngineMinimal.h"
-#include "Wizard.generated.h"
 
 
-UCLASS(minimalapi)
+UCLASS()
 class UMapLib : public UBlueprintFunctionLibrary
 {
 	GENERATED_BODY()
