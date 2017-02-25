@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Wizard.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{245357E4-8498-4319-8407-775249F7C01D}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Wizard.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\WizardEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{F67C1CCE-AF8B-483C-8AED-66CC169EC043}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Wizard">
+			<UniqueIdentifier>{8975A7DB-F259-46D9-99BD-497A7298E9F2}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\Wizard\MapLib.cpp">
+			<Filter>Source\Wizard</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Wizard\MapLib.h">
+			<Filter>Source\Wizard</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\Wizard\Wizard.Build.cs">
+			<Filter>Source\Wizard</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Wizard\Wizard.cpp">
+			<Filter>Source\Wizard</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Wizard\Wizard.h">
+			<Filter>Source\Wizard</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
